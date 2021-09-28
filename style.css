@@ -1,0 +1,116 @@
+/* body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+} */
+body {
+  margin: 0;
+  padding-left: 10px;
+  background-color: #f0ffff;
+}
+
+.topface {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 350px;
+  top: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+th {
+  padding-left: 40px;
+}
+
+/* company name/date and position */
+
+.td1 {
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.td2 {
+  font-weight: bold;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+/* pkey=key responsiblites */
+.pkey {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: -30px;
+}
+
+/* pach=key Achievements */
+.pach {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: -10px;
+}
+
+/* My details */
+.starting {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  line-height: 10%
+}
+
+/* type of bullet form in a bullet form */
+.bulletform1 {
+  list-style: none;
+}
+
+.li1 {
+  padding-left: 5rem;
+  text-indent: -.7em;
+}
+
+.li1::before {
+  content: "o ";
+  color: grey;
+  /* or whatever color you prefer */
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 24%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.lastinfo {
+  font-family: serif;
+}
+
+.bottom-container {
+  background-color: grey;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  font-size: 1rem;
+  /* 75% of 16px */
+  padding: 0;
+  text-align: center;
+}
